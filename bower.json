@@ -1,0 +1,28 @@
+{
+  "name": "angular-cookies-mirror",
+  "description": "Use cookies even if u can't",
+  "main": "./angular-cookies-mirror.js",
+  "authors": [
+    "uamanager <faradey.ivan@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "cookies",
+    "cordova",
+    "webview",
+    "restriction",
+    "localStorage"
+  ],
+  "homepage": "https://github.com/uamanager/angular-cookies-mirror",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "*"
+  }
+}

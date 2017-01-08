@@ -1,0 +1,36 @@
+{
+  "name": "angular-cookies-mirror",
+  "version": "0.0.1",
+  "description": "Use cookies even if u can't",
+  "main": "./angular-cookies-mirror.js",
+  "scripts": {
+    "test": "git status"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uamanager/angular-cookies-mirror.git"
+  },
+  "keywords": [
+    "angular",
+    "cookies",
+    "cordova",
+    "webview",
+    "restriction",
+    "localStorage"
+  ],
+  "author": "uamanager <faradey.ivan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uamanager/angular-cookies-mirror/issues"
+  },
+  "homepage": "https://github.com/uamanager/angular-cookies-mirror#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0"
+  }
+}
