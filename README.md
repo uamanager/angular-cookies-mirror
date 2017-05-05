@@ -43,36 +43,11 @@ Add to provider config cookies name those you want to keep:
     
     function cookiesMirrorConfig($cookiesMirrorProvider){
         $cookiesMirrorProvider.track(['cookieName1', 'cookieName2']);
-    }
-})();
-```
-you can use it also in this way: 
 
-```javascript
-(function(){
-    angular.
-        module('myApp').
-        config(cookiesMirrorConfig);
-    
-    cookiesMirrorConfig.$inject = ['$cookiesMirrorProvider'];
-    
-    function cookiesMirrorConfig($cookiesMirrorProvider){
+        //you can use it also in this way: 
         $cookiesMirrorProvider.track('cookieName');
-    }
-})();
-```
-
-or like this:
-
-```javascript
-(function(){
-    angular.
-        module('myApp').
-        config(cookiesMirrorConfig);
-    
-    cookiesMirrorConfig.$inject = ['$cookiesMirrorProvider'];
-    
-    function cookiesMirrorConfig($cookiesMirrorProvider){
+        
+        //or like this:
         $cookiesMirrorProvider.track('cookieName1', 'cookieName2');
     }
 })();
