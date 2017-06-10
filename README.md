@@ -53,7 +53,7 @@ Add to provider config cookies name those you want to keep:
 })();
 ```
 
-###MIT License
+### MIT License
 
 Copyright (c) 2017 uamanager
 
