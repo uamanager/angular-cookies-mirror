@@ -1,4 +1,4 @@
-# angular-cookies-mirror <img src="http://benschwarz.github.io/bower-badges/badge@2x.png" width="130" height="30">
+# angular-cookies-mirror <img src="http://benschwarz.github.io/bower-badges/badge@2x.png" width="130" height="30"> [![Codacy Badge](https://api.codacy.com/project/badge/Grade/542aabe985da41c7b496c0fbf3a298fb)](https://www.codacy.com/app/app42811798/angular-cookies-mirror?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uamanager/angular-cookies-mirror&amp;utm_campaign=Badge_Grade)
 **Useful for `cordova` applications where cookies are not allowed**
 
 The `cookiesMirror` module provides you to use cookies even if they are restricted in browser or platform.
